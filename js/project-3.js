@@ -44,7 +44,7 @@ refs3.btnHoldEl.addEventListener('click', () => {
     if (playing) {
         scores[activePlayer] += currentScore;
         document.querySelector(`#score--${activePlayer}`).textContent = `${scores[activePlayer]}`;
-        if (scores[activePlayer] >= 10) {
+        if (scores[activePlayer] >= 100) {
             playing = false;
             (_a = document.querySelector(`.player--${activePlayer}`)) === null || _a === void 0 ? void 0 : _a.classList.add('player--winner');
             (_b = document.querySelector(`.player--${activePlayer}`)) === null || _b === void 0 ? void 0 : _b.classList.remove('player--active');

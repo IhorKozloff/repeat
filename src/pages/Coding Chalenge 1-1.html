@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+       const dataOneMarkWeight = 78;
+       const dataOneMarkTall = 1.69;
+       const dataOneMarkIdx = dataOneMarkWeight / dataOneMarkTall **2;
+
+       const dataOneJohnWeight = 92;
+       const dataOneJohnTall = 1.95;
+       const dataOneJohnIdx = dataOneJohnWeight / dataOneJohnTall **2
+
+       const dataOneMarkHigherBMI = dataOneMarkIdx > dataOneJohnIdx;
+
+
+
+       const dataTwoMarkWeight = 95;
+       const dataTwoMarkTall = 1.88;
+       const dataTwoMarkIdx = dataTwoMarkWeight / dataTwoMarkTall **2;
+
+       const dataTwoJohnWeight = 85;
+       const dataTwoJohnTall = 1.76;
+       const dataTwoJohnIdx = dataTwoJohnWeight / dataTwoJohnTall **2
+
+       const dataTwoMarkHigherBMI = dataTwoMarkIdx > dataTwoJohnIdx;
+       console.log(dataOneMarkHigherBMI, dataTwoMarkHigherBMI)
+//         Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
+// m tall.
+// § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
+// m tall.
+    </script>
+</body>
+</html>

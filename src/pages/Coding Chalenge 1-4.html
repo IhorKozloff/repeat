@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let value = 275
+        console.log(
+            value >= 50 && value <= 300 
+            ? `The bill was ${value}, the tip was ${(15 * value)/100}` 
+            : `The bill was ${value}, the tip was ${(20 * value)/100}`
+        );
+
+        value = 40;
+        console.log(
+            value >= 50 && value <= 300 
+            ? `The bill was ${value}, the tip was ${(15 * value)/100}` 
+            : `The bill was ${value}, the tip was ${(20 * value)/100}`
+        );
+        
+        value = 430;
+        console.log(
+            value >= 50 && value <= 300 
+            ? `The bill was ${value}, the tip was ${(15 * value)/100}` 
+            : `The bill was ${value}, the tip was ${(20 * value)/100}`
+        );
+// Example: “The bill was 275, the tip was 41.25, and the total value
+// 316.25”
+
+//  values 275, 40 and 430
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+       const dataOneMarkWeight = 78;
+       const dataOneMarkTall = 1.69;
+       const dataOneMarkIdx = dataOneMarkWeight / dataOneMarkTall **2;
+
+       const dataOneJohnWeight = 92;
+       const dataOneJohnTall = 1.95;
+       const dataOneJohnIdx = dataOneJohnWeight / dataOneJohnTall **2
+
+       const dataOneMarkHigherBMI = dataOneMarkIdx > dataOneJohnIdx;
+       if (dataOneMarkHigherBMI) {
+        console.log(`Marks's BMI - ${dataOneMarkIdx} is higher than John's BMI - ${dataOneJohnIdx}`);
+       } else {
+        console.log(`John's BMI - ${dataOneJohnIdx} is higher than Marks's BMI - ${dataOneMarkIdx}`);
+       }
+
+
+
+       const dataTwoMarkWeight = 95;
+       const dataTwoMarkTall = 1.88;
+       const dataTwoMarkIdx = dataTwoMarkWeight / dataTwoMarkTall **2;
+
+       const dataTwoJohnWeight = 85;
+       const dataTwoJohnTall = 1.76;
+       const dataTwoJohnIdx = dataTwoJohnWeight / dataTwoJohnTall **2
+
+       const dataTwoMarkHigherBMI = dataTwoMarkIdx > dataTwoJohnIdx;
+
+       if (dataTwoMarkHigherBMI) {
+        console.log(`Marks's BMI - ${dataTwoMarkIdx} is higher than John's BMI - ${dataTwoJohnIdx}`);
+       } else {
+        console.log(`John's BMI - ${dataTwoJohnIdx} is higher than Marks's BMI - ${dataTwoMarkIdx}`);
+       }
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Values and variables</title>
+</head>
+<body>
+    <script>
+        //1
+        const country = 'Ukraine';
+        const continent = "Europe";
+        let population = 35;
+        console.log(country, continent, population);
+        //2
+        const isIsland = false;
+        let language;
+        console.log(typeof isIsland);
+        console.log(typeof population);
+        console.log(typeof country);
+        console.log(typeof language);
+        //3
+        language = 'ukrainian';
+        //4
+        const halfAnPopulation = population / 2;
+        population += 1;
+        console.log(population);
+        const isPopulationMore = population > 6;
+        const isAverageLess = population < 33;
+        // const description = country + ' is in ' + continent + ', and its ' + population + ' million people speak ' + language; 
+        // console.log(description);
+        
+        //5
+        const description = `${country} is in ${continent}, and it's ${population} million people speak ${language}.`; 
+        console.log(description);
+        //6
+        let numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+        if (numNeighbours === 1) {
+            console.log('Only 1 border!');
+        } else if (numNeighbours > 1) {
+            console.log('More than 1 border');
+        } else {
+            console.log('No borders!');
+        }
+    </script>
+</body>
+</html>
